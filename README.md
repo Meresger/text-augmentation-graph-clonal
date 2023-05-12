@@ -20,20 +20,23 @@ This repository contains the following files and directories:
 To utilize the TextAugmentation-CLONALG-AMR method for text augmentation, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Install the necessary dependencies mentioned in the requirements file. 
-3. Prepare your dataset or use the provided dataset files in the data/ directory , make sure the colum name is 'text' in csv file.
+2. Install the necessary dependencies mentioned in the requirements file.
+3. Create a `data` folder in the root directory and place your dataset CSV file inside it. Make sure the column name containing the text data is named 'text' in the CSV file.
 4. Open the `main.py` file and modify the `input_file` variable to specify the path to your CSV file.
 5. Run the `main.py` script.
 6. The augmented data will be saved as a new CSV file in the `results` directory with the same name as the input file but with "_augmented" appended to it.
 
 ## Example
 
-To run the text augmentation on your own CSV file, modify the `input_file` variable in `main.py`:
+To run the text augmentation on your own CSV file:
 
-```python
-input_file = "../data/your_file.csv"  # Specify the path to your CSV file
-process_csv(input_file)
-```
+1. Create a `data` and `results` folder in the root directory of the repository.
+2. Place your dataset CSV file inside the `data` folder.
+3. Open the `main.py` file and modify the `input_file` variable:
+
+   ```python
+   input_file = "data/your_file.csv"  # Specify the path to your CSV file
+    ```
 
 ## License
 The TextAugmentation-CLONALG-AMR repository is licensed under the MIT License.
