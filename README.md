@@ -38,5 +38,5 @@ To run the text augmentation on your own CSV file:
    input_file = "data/your_file.csv"  # Specify the path to your CSV file
     ```
 
-## License
-to be continued
+## Note
+This repository is being actively developed and updated. Please check back for additional features and improvements.
