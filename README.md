@@ -1,5 +1,5 @@
 ### TextAugmentation-CLONALG-AMR
-Welcome to the TextAugmentation-CLONALG-AMR repository! This repository showcases a graph-based approach and the Clonal Selection Algorithm (CLONALG) for text augmentation in Natural Language Processing (NLP) tasks.
+This repository showcases a graph-based approach and the Clonal Selection Algorithm (CLONALG) for text augmentation in Natural Language Processing (NLP) tasks.
 
 ## Overview
 Annotated data plays a crucial role in training machine learning models. However, manually labeling large amounts of data with high-quality annotations can be time-consuming and labor-intensive. In the field of NLP, the labels provided by human annotators vary in competency, training, and experience, leading to arbitrary and ambiguous standards. To address the challenges of insufficient high-quality labels, researchers have been exploring automated methods for enhancing training and testing datasets.
@@ -13,7 +13,7 @@ This repository contains the following files and directories:
 - code/: This directory contains the implementation of the TextAugmentation-CLONALG-AMR method.
 - results/: This directory stores the results obtained from applying the method on the datasets.
 - README.md: This file provides an overview of the repository and the research paper.
--LICENSE: This file contains the licensing information for the repository.
+- LICENSE: This file contains the licensing information for the repository.
 
 ## Usage
 To utilize the TextAugmentation-CLONALG-AMR method for text augmentation, follow these steps:
