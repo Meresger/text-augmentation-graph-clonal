@@ -9,6 +9,7 @@ In this paper, we present a novel method that leverages the Clonal Selection Alg
 ## Repository Structure
 This repository contains the following files and directories:
 
+- data/: This directory contains the dataset files used in the experiments.
 - src/: This directory contains AMR distance Metrics Code.
 - code/: This directory contains the implementation of the TextAugmentation-CLONALG-AMR method.
 - results/: This directory stores the results obtained from applying the method on the datasets.
@@ -18,11 +19,21 @@ This repository contains the following files and directories:
 ## Usage
 To utilize the TextAugmentation-CLONALG-AMR method for text augmentation, follow these steps:
 
-- Clone this repository to your local machine.
-- Install the necessary dependencies mentioned in the requirements file.
-- Prepare your dataset or use the provided dataset files in the data/ directory.
-- Execute the code in the code/ directory, making necessary modifications according to your dataset and requirements.
-- View and analyze the results obtained in the results/ directory.
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies mentioned in the requirements file. 
+3. Prepare your dataset or use the provided dataset files in the data/ directory , make sure the colum name is 'text' in csv file.
+4. Open the `main.py` file and modify the `input_file` variable to specify the path to your CSV file.
+5. Run the `main.py` script.
+6. The augmented data will be saved as a new CSV file in the `results` directory with the same name as the input file but with "_augmented" appended to it.
+
+## Example
+
+To run the text augmentation on your own CSV file, modify the `input_file` variable in `main.py`:
+
+```python
+input_file = "../data/your_file.csv"  # Specify the path to your CSV file
+process_csv(input_file)
+```
 
 ## License
 The TextAugmentation-CLONALG-AMR repository is licensed under the MIT License.
