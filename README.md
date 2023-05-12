@@ -39,4 +39,4 @@ To run the text augmentation on your own CSV file:
     ```
 
 ## License
-The TextAugmentation-CLONALG-AMR repository is licensed under the MIT License.
+to be continued
