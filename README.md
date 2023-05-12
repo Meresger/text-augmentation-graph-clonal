@@ -9,7 +9,7 @@ In this paper, we present a novel method that leverages the Clonal Selection Alg
 ## Repository Structure
 This repository contains the following files and directories:
 
-- data/: This directory contains the dataset files used in the experiments.
+- src/: This directory contains AMR distance Metrics Code.
 - code/: This directory contains the implementation of the TextAugmentation-CLONALG-AMR method.
 - results/: This directory stores the results obtained from applying the method on the datasets.
 - README.md: This file provides an overview of the repository and the research paper.
@@ -18,12 +18,11 @@ This repository contains the following files and directories:
 ## Usage
 To utilize the TextAugmentation-CLONALG-AMR method for text augmentation, follow these steps:
 
-Clone this repository to your local machine.
-Install the necessary dependencies mentioned in the requirements file.
-Prepare your dataset or use the provided dataset files in the data/ directory.
-Execute the code in the code/ directory, making necessary modifications according to your dataset and requirements.
-View and analyze the results obtained in the results/ directory.
-Feel free to explore the code and techniques presented in this repository to enhance your NLP models with automated data augmentation and achieve more accurate and reliable results.
+- Clone this repository to your local machine.
+- Install the necessary dependencies mentioned in the requirements file.
+- Prepare your dataset or use the provided dataset files in the data/ directory.
+- Execute the code in the code/ directory, making necessary modifications according to your dataset and requirements.
+- View and analyze the results obtained in the results/ directory.
 
 ## License
 The TextAugmentation-CLONALG-AMR repository is licensed under the MIT License.
